@@ -1,0 +1,25 @@
+1. Prepare database
+-> Open psql shell OR SQL commander from DB explorer with PostgreSQL server connection established
+-> Set up database and tables. Please refer to prenetics_assessment_Ashwini\back_end\resources\db.sql
+-> Insert test data in the tables. Please refer to prenetics_assessment_Ashwini\back_end\resources\test_data.sql
+
+
+2. Start Back End service
+-> Open Command Line
+-> Navigate to project directory prenetics_assessment_Ashwini\back_end
+-> npm install
+-> npm start
+
+
+3. Start Front End service
+-> Open Command Line
+-> Navigate to project directory prenetics_assessment_Ashwini\front_end
+-> npm install
+-> npm start
+
+4. Test on browser
+1. Open browser
+2. Enter URL https://localhost:8080/login
+3. Login with the user id and password as provided in the test_data.sql
+4. On successful login, Customer info and genetic results should be displayed on home page
+
